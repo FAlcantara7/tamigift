@@ -25,7 +25,7 @@ export default {
     const router = useRouter()
 
     const login = () => {
-      if (state.code === '1234') {
+      if (state.code === '1901') {
         sessionStorage.setItem('token', 'seu-token-de-autorizacao')
         router.push({ name: 'MainScreen' })
       } else {
